@@ -6,13 +6,13 @@
 ## 安装
 
 ```
-yarn add @zgren/nestjs-snowflake
+yarn add nestjs-snowflake
 ```
 
 ## 使用方法生成
 
 ```
-import * as Snowflake from '@zgren/snowflake';
+import * as Snowflake from 'nestjs-snowflake';
 
 const snowflake = new Snowflake();
 

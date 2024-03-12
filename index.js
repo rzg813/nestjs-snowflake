@@ -1,7 +1,7 @@
 var Snowflake = (function () {
   function Snowflake(_workerId, _dataCenterId) {
-      /** 开始时间截 ：2019-12-20 13:52:35 */
-      this.twepoch = 1609343999999n;
+      /** 开始时间截 ：2015-12-30 23:59:59.888 */
+      this.twepoch = 1451491199888n;
       /** 机器id所占的位数 */
       this.workerIdBits = 5n;
       /** 数据标识id所占的位数 */
@@ -96,6 +96,4 @@ var Snowflake = (function () {
   };
   return Snowflake;
 }());
-module.exports =(options)=>{
-  return new Snowflake(options.workerId,options.dataCenterId);
-};
+module.exports = Snowflake;
