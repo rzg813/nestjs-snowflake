@@ -1,0 +1,19 @@
+{
+  "name": "nestjs-snowflake",
+  "version": "1.0.0",
+  "description": "Nestjs project app to snowflake",
+  "main": "index.js",
+  "author": "zgren",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/rzg813/nestjs-snowflake",
+  "keywords": [
+    "nestjs-snowflake"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rzg813/nestjs-snowflake.git"
+  },
+  "license": "MIT"
+}
